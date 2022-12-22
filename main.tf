@@ -21,6 +21,11 @@ resource "rollbar_notification" "slack" {
   channel = "slack"
   rule  {
     filters {
+        type =  "environment"
+        operation =  "eq"
+        value = "production"
+    }
+    filters {
        type = "title"
        operation = "within"
        value = "送客された顧客の登録に失敗しました"
