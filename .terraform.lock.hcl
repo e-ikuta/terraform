@@ -1,0 +1,23 @@
+# This file is maintained automatically by "terraform init".
+# Manual edits may be lost in future updates.
+
+provider "registry.terraform.io/rollbar/rollbar" {
+  version = "1.9.0"
+  hashes = [
+    "h1:EwiD3oIOmLcGz2W0RDX0WyPulO0kEoeQeojJ4igRW1o=",
+    "zh:02f1b4724b1ff18d6351a436525ecc6a6e047ea370d846db1a637beb198a2f13",
+    "zh:0cbf490ee89232e63e701e0a0119ff9398fbecf49e6242b734524046c201aca3",
+    "zh:0e6207dd0614eb0ceb80fc9338c48b3fc53fa0ef50ce751b63772193765cc82e",
+    "zh:204cbf4f8f9a57abf409429c74c1d3a316310b957fa7c99909e6273c62b2be6f",
+    "zh:8310a43b3de4913e4f4d2f940e948fce1b9c40fdc0f3d15e6f7c89b0d8302617",
+    "zh:87141ea682491ee9e7033ffbc083573a64e2561b2ca3e77fcb2a5627bcb73bc4",
+    "zh:8bd57098fa94a39a64888d67a203e047c1eef9263912b97064a9a714beb3cd18",
+    "zh:8f5c9b28a736cfa429364f2516fd06baf0e7175e500643e6f235177a035d2bb8",
+    "zh:a3dd3fa3a23459c3bd80644975e0b060fbf9fdb690a2f7950e1c78176018d47b",
+    "zh:b60a0ab878fa81caff3401246e59d9798aa7af879f9fed16489748e71cc18735",
+    "zh:c39e5482197d9b52b8317f3a1b8889850d5dbe316a31dd4d68e959fcdf323a20",
+    "zh:c65cf07408bfcf791725634695eb529628f669101a0841bd986f98a99d734e5d",
+    "zh:d10c02896a8e42d02d39c86714af4ff4ac53de9a4987325ed8c6e25d57e9091e",
+    "zh:dc11bb584394754252458cd7d683c699f57bb630e4f9bb45cbdab55670645a42",
+  ]
+}
