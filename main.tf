@@ -18,18 +18,17 @@ provider "rollbar" {
 
 # Create a new Slack notification rule for the "New Item" trigger
 resource "rollbar_notification" "slack" {
+  channel = "slack"
   rule  {
     filters {
-        type =  "environment"
-        operation =  "eq"
-        value = "production"
+       type = "title"
+       operation = "within"
+       value = "送客された顧客の登録に失敗しました"
     }
-    filters {
-       type = "framework"
-       operation = "eq"
-       value = "14"
-    }
-    trigger = "new_item"
+    trigger = "occurrence"
   }
-  channel = "slack"
+  config {
+    show_message_buttons = true
+    channel = "random"
+  }
 }
